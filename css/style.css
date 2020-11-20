@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+body h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+body h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+body h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+body h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+th, td {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+
+/* Style Untuk Hero Landing Page */
+
+
+#Hero-content {
+    color: white;
+    max-height: 500PX;
+    background-image: url("../images/gambar1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.header-content {
+    border-radius: 10px;
+}
+
+.image-hero {
+    margin-top: 30px;
+    width: 50%;
+    background-color: white;
+    box-shadow: steelblue;
+}
+
+.text-hero {
+    width: 100%;
+}
+
+.image-table {
+    max-width: 50px;
+}
+
+/* Style Untuk Content Team */
+.card-team {
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.card-content {
+    padding-bottom: 10px;
+}
+
+.card-content h4 {
+    font-size: 20px;
+}
+
+.card-image {
+    padding-top: 10px;
+}
+
+.card-team:hover {
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-stretch: wider;
+}
+
+/* Style Untuk Body Content */
+
+.btn-detail-team {
+    background-color: darkblue;
+}
+
+.team-squad {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.match-table {    
+    max-height: 500px;
+    overflow: auto;
+}
+
+.mobile-table{
+    max-height: 500px;
+    overflow: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #3949ab;
+}
+
+@media screen and (max-width: 513px) {
+
+    body h1 {
+        font-size: 35px;
+    }
+    
+    .image-table {
+        max-width: 30px;
+    }
+
+    .item-name {
+        display: inline;
+        float: left;
+    }
+
+    .mobile-table{
+        max-height: 300px;
+        overflow: auto;
+    }
+
+    .footer-fix {
+        margin-top: -40px !important;
+    }
+}
